@@ -31,6 +31,10 @@ au BufReadPost *.sp set syntax=spice
 au BufReadPost Makefile set sw=8
 au BufReadPost Makefile set softtabstop=8
 
+inoremap {<cr> {<cr>}<c-o><s-o>
+inoremap [<cr> [<cr>]<c-o><s-o>
+inoremap (<cr> (<cr>)<c-o><s-o>
+
 filetype plugin on
 set shellslash
 set grepprg=grep\ -nH\$*
