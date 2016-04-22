@@ -9,7 +9,6 @@ set mouse=a
 set hlsearch
 set nu
 set foldmethod=marker
-set autoindent
 set cmdheight=2
 
 syntax on
